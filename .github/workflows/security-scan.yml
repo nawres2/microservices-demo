@@ -19,6 +19,8 @@ jobs:
           scan-type: 'fs'
           scan-ref: '.'
           severity: 'CRITICAL,HIGH'
+          exit-code: '1'
+          ignore-unfixed: true
 
   gitleaks-scan:
     runs-on: ubuntu-latest
