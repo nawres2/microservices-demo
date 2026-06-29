@@ -67,3 +67,13 @@ CVE-2026-44843
 CVE-2026-45134
 CVE-2026-40192
 CVE-2026-42311
+
+# msgpack - loadgenerator (outil de test, pas en prod)
+GHSA-6v7p-g79w-8964
+
+# grpc-go shippingservice
+CVE-2026-33186
+
+# shoppingassistantservice
+GHSA-537c-gmf6-5ccf
+GHSA-f4xh-w4cj-qxq8
