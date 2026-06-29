@@ -1,0 +1,14 @@
+# Lab DevSecOps - findings dans le code source Google Online Boutique (repo de démonstration)
+# Ces findings sont documentés et acceptés pour ce lab
+
+src/currencyservice/client.js
+src/emailservice/email_server.py
+src/frontend/handlers.go
+src/frontend/main.go
+src/frontend/middleware.go
+src/frontend/templates/
+src/loadgenerator/Dockerfile
+src/paymentservice/server.js
+src/shippingservice/main.go
+src/shippingservice/tracker.go
+src/shoppingassistantservice/shoppingassistantservice.py
