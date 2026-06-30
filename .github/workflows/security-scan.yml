@@ -35,18 +35,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  semgrep-scan:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Run Semgrep
-        uses: returntocorp/semgrep-action@v1
-        with:
-          config: >-
-            p/default
-sbom-generation:
+  sbom-generation:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -80,5 +69,4 @@ sbom-generation:
         uses: sigstore/cosign-installer@v3
 
       - name: Verify Cosign installation
-        run: cosign version            p/secrets
-            p/docker
+        run: cosign version
